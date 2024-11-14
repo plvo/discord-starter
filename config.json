@@ -1,0 +1,10 @@
+{
+    "prefix": "!",
+    "embed":{
+        "color": "111",
+        "footer":{
+            "text":"Discord footer",
+            "iconURL":"https://logodownload.org/wp-content/uploads/2017/11/discord-logo-0.png"
+        }
+    }
+}
