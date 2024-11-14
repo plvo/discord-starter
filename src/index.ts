@@ -22,11 +22,7 @@ listenSlashCommand(client);
 listenNewMessage(client);
 
 client.on(Events.ClientReady, () => {
-  console.log(
-    `[✅ LOGGED] ${
-      client.user.username + "#" + client.user.discriminator
-    } is logged`
-  );
+  console.log(`[✅ LOGGED] ${client.user.username + "#" + client.user.discriminator} is logged`);
 });
 
 client.login(process.env.TOKEN);
