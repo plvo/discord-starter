@@ -33,8 +33,8 @@ bun start
 ```
 
 ## Project Structure
-- `**src/**` - Main source code
+- `src/**` - Main source code
     - `slash-commands/**` - All slash commands
     - `commands/**` - All prefix commands
-- `**config.json**` - Bot configuration settings
-- `**.env.example**` - Template for environment variables (rename to `.env`)
+- `config.json` - Bot configuration settings
+- `.env.example` - Template for environment variables (rename to `.env`)
